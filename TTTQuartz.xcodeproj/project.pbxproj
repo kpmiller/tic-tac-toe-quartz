@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0209D021DAF274A0078F127 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = F0209D011DAF274A0078F127 /* Game.m */; };
 		F06DA5371DAED90C00E705B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F06DA5361DAED90C00E705B6 /* main.m */; };
 		F06DA53A1DAED90C00E705B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F06DA5391DAED90C00E705B6 /* AppDelegate.m */; };
 		F06DA53D1DAED90C00E705B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06DA53C1DAED90C00E705B6 /* ViewController.m */; };
 		F06DA5401DAED90C00E705B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06DA53E1DAED90C00E705B6 /* Main.storyboard */; };
 		F06DA5421DAED90C00E705B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06DA5411DAED90C00E705B6 /* Assets.xcassets */; };
 		F06DA5451DAED90C00E705B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06DA5431DAED90C00E705B6 /* LaunchScreen.storyboard */; };
+		F06DA5511DAED99500E705B6 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = F06DA5501DAED99500E705B6 /* GameView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0209D001DAF274A0078F127 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		F0209D011DAF274A0078F127 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 		F06DA5321DAED90C00E705B6 /* TTTQuartz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTTQuartz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06DA5361DAED90C00E705B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F06DA5381DAED90C00E705B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		F06DA5411DAED90C00E705B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F06DA5441DAED90C00E705B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F06DA5461DAED90C00E705B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06DA54F1DAED99500E705B6 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		F06DA5501DAED99500E705B6 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +68,14 @@
 				F06DA5391DAED90C00E705B6 /* AppDelegate.m */,
 				F06DA53B1DAED90C00E705B6 /* ViewController.h */,
 				F06DA53C1DAED90C00E705B6 /* ViewController.m */,
+				F06DA54F1DAED99500E705B6 /* GameView.h */,
+				F06DA5501DAED99500E705B6 /* GameView.m */,
 				F06DA53E1DAED90C00E705B6 /* Main.storyboard */,
 				F06DA5411DAED90C00E705B6 /* Assets.xcassets */,
 				F06DA5431DAED90C00E705B6 /* LaunchScreen.storyboard */,
 				F06DA5461DAED90C00E705B6 /* Info.plist */,
+				F0209D001DAF274A0078F127 /* Game.h */,
+				F0209D011DAF274A0078F127 /* Game.m */,
 				F06DA5351DAED90C00E705B6 /* Supporting Files */,
 			);
 			path = TTTQuartz;
@@ -110,6 +120,7 @@
 				TargetAttributes = {
 					F06DA5311DAED90C00E705B6 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5567AVSWN3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -151,7 +162,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F06DA53D1DAED90C00E705B6 /* ViewController.m in Sources */,
+				F06DA5511DAED99500E705B6 /* GameView.m in Sources */,
 				F06DA53A1DAED90C00E705B6 /* AppDelegate.m in Sources */,
+				F0209D021DAF274A0078F127 /* Game.m in Sources */,
 				F06DA5371DAED90C00E705B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5567AVSWN3;
 				INFOPLIST_FILE = TTTQuartz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kentmiller.TTTQuartz;
@@ -281,6 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5567AVSWN3;
 				INFOPLIST_FILE = TTTQuartz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kentmiller.TTTQuartz;
@@ -307,6 +322,7 @@
 				F06DA54B1DAED90C00E705B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
